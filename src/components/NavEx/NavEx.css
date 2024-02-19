@@ -1,0 +1,65 @@
+.navEx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 21px 0px;
+    background: #8DD3BB;
+}
+
+.navEx ul li {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border-right: 2px solid black;
+    padding-right: 28px;
+    list-style: none;
+
+}
+
+.navEx ul li .link {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4B7063;
+}
+
+.navEx ul li .link:hover {
+    background-color: white;
+    color: black;
+    padding: 0 22px 20px 22px;
+    border-radius: 16px 16px 0 0;
+}
+
+.navEx ul li .link.active {
+    background-color: white;
+    color: black;
+    padding: 0 22px 20px 22px;
+}
+
+.navEx .SelectLabO {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.navEx .SelectLabT {
+    padding-left: 30px;
+}
+
+
+.navEx .SelectLabO label {
+    font-size: 28px;
+    font-weight: 400;
+    color: #4B7063;
+}
+
+.navEx .selectAll {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+select {
+    background: none;
+    border: none;
+}

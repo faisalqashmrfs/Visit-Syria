@@ -1,0 +1,77 @@
+.CardTwo {
+    direction: rtl;
+}
+
+.CardDiv {
+    width: 370px;
+    height: 240px;
+    align-self: stretch;
+    padding: 18px 26px 27px 26px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 8px 4px 14px 0px rgba(0, 0, 0, 0.05);
+}
+
+.CardDivOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.CardDivOne h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.CardDivFont {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.CardDivFont p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.CardDivFont .star {
+    color: #FFC908;
+}
+
+.CardDiv .CardDivPar {
+    width: 317px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 162.895%;
+}
+
+.CardDivTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.CardDivTwo button {
+    display: flex;
+    height: 35.87px;
+    padding: 8.967px 17.935px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.889px;
+    border-radius: 6.889px;
+    border: 1.722px solid #FFF;
+    background: #A5EBD3;
+    color: #121;
+    font-size: 17.935px;
+    font-weight: 300;
+    outline: 2px solid #A5EBD3;
+}
+
+.CardDivTwo p {
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 14.293px;
+    font-weight: 400;
+}

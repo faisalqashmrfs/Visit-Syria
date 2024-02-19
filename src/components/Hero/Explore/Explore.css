@@ -1,0 +1,59 @@
+.Explore {
+    text-align: right;
+}
+
+.Explore h1 {
+    color: #FFF;
+    font-size: 110.959px;
+    font-weight: 700;
+
+}
+
+.Explore h2 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.Explore button {
+    height: 55.11px;
+    padding: 13.777px 27.555px;
+    border-radius: 6.889px;
+    border: 1.722px solid #FFF;
+    background: #A5EBD3;
+    color: #121;
+    font-size: 27.555px;
+    font-weight: 300;
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+    outline: 2px solid #A5EBD3;
+    gap: 6.889px;
+}
+
+@media screen and (max-width:1100px) {
+    .Explore {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .Explore h1 {
+        font-size: 69.401px;
+    }
+
+    .Explore h2 {
+        margin-top: 18px;
+        font-size: 22.517px;
+
+    }
+
+    .Explore button {
+        margin-top: 32px;
+        padding: 20px;
+    }
+}
